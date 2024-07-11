@@ -3,10 +3,7 @@ const username = document.querySelector('#username');
 const title = document.querySelector('#title');
 const content = document.querySelector('#content');
 
-//Declare blogPosts array and set it to local storage
-let blogPosts = []
-localStorage.setItem('blog posts', blogPosts)
-console.log(localStorage)
+//Declare allPosts array and set it to local storage
 
 //Begin logic when submit button is pressed
 document.querySelector('#btn').addEventListener('click', start);
@@ -34,16 +31,11 @@ function storeBlogPost(){
         'content': content.value
     };
     
-    //Push object to blogPosts array
-    blogPosts.push(blogPost);
+    //Push object to allPosts array
+    allPosts.push(blogPost);
 
     //Update local storage
-    localStorage.setItem('blog posts', JSON.stringify(blogPosts))
-
-    //Clear form feilds
-    username.textContent = ""
-    title.textContent = ""
-    content.textContent = ""
+    localStorage.setItem("blog posts", JSON.stringify(allPosts))
 
     //continue to next function
     pageRedirect()
