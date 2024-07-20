@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
-</head>
-<body>
-    <div class="title">
-        <h1>JonGrom's Blogs</h1>
-    </div>
-    <section class="blogpost">
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="assets/css/meyerweb-reset.css">
+     <link rel="stylesheet" href="assets/css/form.css">
+     <title>LandingPage</title>
+ </head>
+ <body>
+     
+    <header class="title">
+        <h1>JonsBlogs</h1>
+    </header>
+    <div class = body>
         <h2>Drop some big ideas!</h2>
-        <form>
-            <label for="username">username</label>
-                <input type="text" id="username">
-            <label for="title">title</label>
-                <input type="text" id="title">
-            <label for="content">content</label>
-                <input type="text" id="content"> 
-            <input type="button" value="submit" id="btn">
-        </form>
-        <h4 id="invalid"></h4>
+        <section class="blogpost">
+            <form class="form1">
+                <label for="username">Username:</label>  
+                <input type="text" id="username">     
+                <label for="title">Title:</label>
+                <input type="text" id="title">  
+                <input type="button" value="POST IT!" id="btn">  
+            </form>
+            <form class="form2">
+                <label for="content">Content:</label>
+                <textarea name="content" id="content"></textarea> 
 
-    </section>
-    <script src="assets/js/form.js"></script>
-    <script src="assets/js/logic.js"></script>
+            </form>
+        </section> 
+        <h4 id="invalid"></h4>
+    </div>
+    <footer>
+        <a href="https://github.com/JonGrom">github
+    </footer>
+     <script src="assets/js/form.js"></script>
+     <script src="assets/js/logic.js"></script>
 </body>
 </html>

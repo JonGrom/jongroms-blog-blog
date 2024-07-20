@@ -1,0 +1,56 @@
+body{
+    background-color: #eed9c4;
+
+}
+
+#posts{
+
+    display: flex;
+    flex-direction: column;
+    margin: 35px;
+    margin-top: 80px;
+    border: 5px solid #4346aa;
+    border-radius: 20px;
+    background-color: #4346aa;
+    
+}
+
+.title{
+    border: 5px solid red
+}
+
+h1{
+    border: 5px solid green
+}
+
+.blogpost{
+    border: 5px solid yellow 
+}
+    
+h2{
+    border: 5px solid blue
+}
+
+form{
+    border: 5px solid orange
+}
+
+form label{
+    border: 5px solid black
+}
+
+form label input{
+    border: 5px solid lime
+}
+/* efwefjw  */
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    font-family: 'Gill Sans', 'Courier', 'Ariel', 'sans-serif';
+    font-size: 40px;
+    padding-top: 20px;
+    color: #6a5e46;
+}

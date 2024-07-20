@@ -45,6 +45,3 @@ function storeBlogPost(){
 function pageRedirect(){
     location.href = "blog.html"
 };
-
-
-
