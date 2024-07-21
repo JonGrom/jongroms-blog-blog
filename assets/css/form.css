@@ -1,5 +1,6 @@
 body{
-    background-color: #e1d8bf;
+    background-color: #eed9c4;
+
 }
 
 .title{
@@ -7,12 +8,6 @@ body{
     display: flex;
     justify-content: center;
 
-}
-
-.header-space{
-    width: 40%;
-    height: 40px;
-    border: 20px solid red
 }
 
 h1{

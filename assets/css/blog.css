@@ -1,5 +1,20 @@
 body{
     background-color: #eed9c4;
+}
+
+button{
+    background-color: #6a5e46;
+    color: #eed9c4;
+    padding: 5px 15px;
+    margin: 50px 40px;
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Courier', 'Ariel', 'sans-serif';
+    font-size: medium;
+}
+
+.dark-mode-button{
+    background-color: #C5CBE3;
+    color:black;
 
 }
 
@@ -8,41 +23,43 @@ body{
     display: flex;
     flex-direction: column;
     margin: 35px;
-    margin-top: 80px;
+    gap: 30px;
+}
+
+.inner-div{
+    color: #C5CBE3;
     border: 5px solid #4346aa;
     border-radius: 20px;
     background-color: #4346aa;
-    
-}
-
-.title{
-    border: 5px solid red
+    font-family: 'Courier New', 'Courier', 'monospace', 'sans-serif';
 }
 
 h1{
-    border: 5px solid green
+
+    font-family: 'Gill Sans', 'Courier', 'Ariel', 'sans-serif';
+    font-size: 30px;
+    padding: 40px 40px 0px;
+    color: #6a5e46;
 }
 
-.blogpost{
-    border: 5px solid yellow 
-}
-    
-h2{
-    border: 5px solid blue
+.title{
+    text-decoration: underline;
+    text-decoration-color: #F13c20;
+    padding: 30px 30px 0px;
 }
 
-form{
-    border: 5px solid orange
+p{
+    padding: 30px;
 }
 
-form label{
-    border: 5px solid black
+.username{
+    padding: 0px 30px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Courier', 'Ariel', 'sans-serif';
+    color: #6a5e46;
+
 }
 
-form label input{
-    border: 5px solid lime
-}
-/* efwefjw  */
 footer{
     display: flex;
     justify-content: center;
